@@ -16,6 +16,7 @@ public class SpringConfig {
             registry.anyRequest().authenticated();
         })
                 .oauth2Client(Customizer.withDefaults())
+                .oauth2Login(Customizer.withDefaults())
                 .formLogin(Customizer.withDefaults())
                 .build();
     }
