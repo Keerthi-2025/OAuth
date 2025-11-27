@@ -16,7 +16,10 @@ public class SpringConfig {
             registry.anyRequest().authenticated();
         })
                 .oauth2Client(Customizer.withDefaults())
-                .oauth2Login(Customizer.withDefaults())
+
+                .oauth2Login(oauth2login->{   //redirects profile after login
+                    oauth2login.successHandler((request, response, authentication) -> response.sendRedirect("/profile"));
+                })
                 .formLogin(Customizer.withDefaults())
                 .build();
     }
