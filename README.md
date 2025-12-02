@@ -37,7 +37,7 @@ This guide explains how to configure **Google OAuth 2.0** credentials in the **G
 
 ---
 
-## ## 4. Create OAuth Credentials
+**4. Create OAuth Credentials**
 
 1. Go to **APIs & Services → Credentials**
 2. Click **Create Credentials → OAuth client ID**
@@ -70,7 +70,7 @@ Store these securely (e.g., in environment variables).
 
 ---
 
-## ## 5. Add Environment Variables (example)
+ **5. Add Environment Variables** 
 
 ```
 GOOGLE_CLIENT_ID=your_client_id
@@ -80,15 +80,8 @@ GOOGLE_REDIRECT_URI=http://localhost:3000/auth/google/callback
 
 ---
 
-## ## 6. Using the Credentials
 
-You can now integrate Google OAuth with your backend/frontend using your preferred framework (Passport.js, Firebase, NextAuth, Python, etc.)
-
-If you want, I can add sample code for any framework.
-
----
-
-## ## 7. Publishing the App
+ **7. Publishing the App**
 
 If you want to make the OAuth app public:
 
