@@ -1,12 +1,12 @@
 
 
-# ⭐ Google OAuth 2.0 Setup (Google Cloud Console)
+ **⭐ Google OAuth 2.0 Setup (Google Cloud Console)**
 
 This guide explains how to configure **Google OAuth 2.0** credentials in the **Google Cloud Console** for use in your application.
 
 ---
 
-## ## 1. Create a Google Cloud Project
+ **1. Create a Google Cloud Project**
 
 1. Go to **Google Cloud Console** → [https://console.cloud.google.com/](https://console.cloud.google.com/)
 2. Click **Select a project** → **New Project**
@@ -14,7 +14,7 @@ This guide explains how to configure **Google OAuth 2.0** credentials in the **G
 
 ---
 
-## ## 2. Enable Google OAuth APIs
+ **2. Enable Google OAuth APIs**
 
 1. In the left sidebar, go to **APIs & Services → Library**
 2. Search for **"Google Identity Services"** or **"Google OAuth 2.0"**
@@ -22,7 +22,7 @@ This guide explains how to configure **Google OAuth 2.0** credentials in the **G
 
 ---
 
-## ## 3. Configure OAuth Consent Screen
+ **3. Configure OAuth Consent Screen**
 
 1. Go to **APIs & Services → OAuth consent screen**
 2. Choose **External** (if users outside your org will log in)
