@@ -1,5 +1,3 @@
-
-
  **⭐ Google OAuth 2.0 Setup (Google Cloud Console)**
 
 This guide explains how to configure **Google OAuth 2.0** credentials in the **Google Cloud Console** for use in your application.
